@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agentic AI for Smart Agriculture Advisory</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="cursor-glow"></div>
+
+  <header class="site-header">
+    <div class="container nav">
+      <div class="brand">
+        <div class="brand-logo">A</div>
+        <div>
+          <h3>APEX</h3>
+          <p>Smart Agriculture Advisory</p>
+        </div>
+      </div>
+
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#architecture">Architecture</a>
+        <a href="#features">Features</a>
+        <a href="#tech">Tech</a>
+        <a href="#weather">Weather</a>
+        <a href="#demo">Crop Recommendation</a>
+        <a href="#disease">Disease Detection</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-bg-grid"></div>
+      <div class="floating floating-1"></div>
+      <div class="floating floating-2"></div>
+      <div class="floating floating-3"></div>
+
+      <div class="container hero-content hero-single">
+        <div class="hero-text reveal">
+          <p class="eyebrow">Hackathon Project • Team APEX</p>
+          <h1>
+            Agentic AI for
+            <span>Smart Agriculture Advisory</span>
+          </h1>
+          <p class="hero-description">
+            An intelligent advisory platform that analyzes soil data, weather data,
+            and crop history to provide farmers with smart crop suggestions, irrigation advice,
+            disease alerts, and weather-based recommendations.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#architecture" class="btn btn-primary">Explore Architecture</a>
+            <a href="#features" class="btn btn-secondary">See Features</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-title reveal">
+          <p class="eyebrow">Problem Statement</p>
+          <h2>Why this project matters</h2>
+          <p class="centered-section-text">
+            Many farmers still depend on guesswork or traditional decision-making,
+            which becomes unreliable under changing environmental conditions.
+            Our system addresses this gap using intelligent analysis and personalized advisory support.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="glass-card reveal tilt">
+            <h3>Current Challenge</h3>
+            <p>
+              Lack of accurate and real-time agricultural guidance leads to poor farming decisions,
+              reduced productivity, and increased risk in crop management.
+            </p>
+          </div>
+
+          <div class="glass-card reveal tilt">
+            <h3>Major Outcomes of the Problem</h3>
+            <p>
+              Wrong crop selection, crop damage due to unpredictable weather,
+              overuse of water and fertilizers, delayed disease detection,
+              and financial loss for farmers.
+            </p>
+          </div>
+
+          <div class="glass-card reveal tilt">
+            <h3>Our Solution</h3>
+            <p>
+              A smart advisory platform powered by machine learning and agentic AI
+              that turns raw field data into useful, actionable recommendations.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="architecture" class="section architecture-section">
+      <div class="container">
+        <div class="section-title reveal">
+          <p class="eyebrow">System Design</p>
+          <h2>Project architecture</h2>
+          <p class="centered-section-text">
+            The system takes three primary inputs—soil data, weather data, and crop dataset—
+            processes them through data analysis, a Random Forest model, and an Agentic AI decision engine,
+            then generates practical recommendations for farmers.
+          </p>
+        </div>
+
+        <div class="architecture-only-layout">
+          <div class="architecture-points">
+            <div class="arch-card reveal">
+              <span>01</span>
+              <div>
+                <h3>Input Layer</h3>
+                <p>Soil data includes pH, moisture, and nutrients; weather data includes temperature, rainfall, and humidity; crop dataset includes crop information and history.</p>
+              </div>
+            </div>
+
+            <div class="arch-card reveal">
+              <span>02</span>
+              <div>
+                <h3>Processing Layer</h3>
+                <p>Data is preprocessed and analyzed before passing through a Random Forest machine learning model and an Agentic AI decision engine.</p>
+              </div>
+            </div>
+
+            <div class="arch-card reveal">
+              <span>03</span>
+              <div>
+                <h3>Output Layer</h3>
+                <p>The platform generates crop suggestions, irrigation advice, disease alerts, and weather advice as smart advisory support for farmers.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="workflow-card reveal tilt">
+            <div class="visual-top">
+              <span class="pulse-dot"></span>
+              <p>Live Advisory Workflow</p>
+            </div>
+
+            <div class="mini-flow">
+              <div class="mini-box">Soil Data</div>
+              <div class="mini-box">Weather</div>
+              <div class="mini-box">Crop History</div>
+              <div class="mini-arrow">↓</div>
+              <div class="mini-core">Agentic AI + Random Forest</div>
+              <div class="mini-arrow">↓</div>
+              <div class="mini-row">
+                <span>Crop</span>
+                <span>Irrigation</span>
+                <span>Disease</span>
+                <span>Weather</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section">
+      <div class="container">
+        <div class="section-title reveal">
+          <p class="eyebrow">Core Features</p>
+          <h2>What the platform delivers</h2>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card reveal tilt">
+            <div class="feature-icon">🌱</div>
+            <h3>Crop Suggestion</h3>
+            <p>Recommends suitable crops using field conditions, crop records, and environmental factors.</p>
+          </div>
+
+          <div class="feature-card reveal tilt">
+            <div class="feature-icon">💧</div>
+            <h3>Irrigation Advice</h3>
+            <p>Guides farmers on water usage based on soil moisture and weather conditions.</p>
+          </div>
+
+          <div class="feature-card reveal tilt">
+            <div class="feature-icon">⚠️</div>
+            <h3>Disease Alerts</h3>
+            <p>Provides early warning insights to reduce crop damage and improve response time.</p>
+          </div>
+
+          <div class="feature-card reveal tilt">
+            <div class="feature-icon">☁️</div>
+            <h3>Weather Advice</h3>
+            <p>Supports planning decisions by combining weather factors like rainfall, humidity, and temperature.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process-section">
+      <div class="container">
+        <div class="section-title reveal">
+          <p class="eyebrow">Workflow</p>
+          <h2>How the intelligence works</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Data Collection</h3>
+              <p>Gather soil metrics, weather details, and crop history from available datasets or integrated sources.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Data Preprocessing</h3>
+              <p>Clean, analyze, and structure the data for effective prediction and decision support.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>ML Prediction</h3>
+              <p>Use Random Forest to generate accurate predictions and pattern-based advisory outputs.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Agentic AI Decision Engine</h3>
+              <p>Convert model outputs into adaptive, intelligent, and user-focused recommendations.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Farmer Advisory</h3>
+              <p>Deliver practical insights that farmers can directly use for field-level decisions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tech" class="section">
+      <div class="container">
+        <div class="section-title reveal">
+          <p class="eyebrow">Technology Stack</p>
+          <h2>Built with modern intelligence</h2>
+          <p class="centered-section-text">
+            The project uses machine learning, data analysis, real-time API integration,
+            and agentic AI to create dynamic and intelligent agricultural guidance.
+          </p>
+        </div>
+
+        <div class="tech-grid">
+          <div class="tech-pill reveal tilt">Random Forest</div>
+          <div class="tech-pill reveal tilt">Machine Learning</div>
+          <div class="tech-pill reveal tilt">Data Analysis</div>
+          <div class="tech-pill reveal tilt">Real-time API Integration</div>
+          <div class="tech-pill reveal tilt">Agentic AI</div>
+          <div class="tech-pill reveal tilt">Smart Advisory Engine</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section future-section">
+      <div class="container">
+        <div class="section-title reveal">
+          <p class="eyebrow">Future Scope</p>
+          <h2>Where this can go next</h2>
+        </div>
+
+        <div class="future-grid">
+          <div class="future-card reveal tilt">
+            <h3>IoT Sensor Integration</h3>
+            <p>Automatic collection of soil moisture, temperature, and humidity for more accurate real-time recommendations.</p>
+          </div>
+
+          <div class="future-card reveal tilt">
+            <h3>Mobile App</h3>
+            <p>A farmer-friendly mobile platform for instant alerts, guidance, and continuous accessibility.</p>
+          </div>
+
+          <div class="future-card reveal tilt">
+            <h3>Advanced AI Models</h3>
+            <p>Use deeper AI techniques for better crop selection, disease prediction, and yield estimation.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WEATHER & IRRIGATION ADVISORY SECTION -->
+    <section id="weather" class="section weather-section">
+      <div class="container">
+        <div class="section-title reveal">
+          <p class="eyebrow">Weather</p>
+          <h2>Weather & irrigation advisory</h2>
+          <p class="centered-section-text">
+            Enter a city to fetch current weather data and see what our advisory engine
+            suggests for irrigation and field activities.
+          </p>
+        </div>
+
+        <div class="weather-layout">
+          <form id="weather-form" class="glass-card weather-form tilt">
+            <h3>Check weather for your location</h3>
+            <label class="weather-label">
+              <span>City name</span>
+              <input
+                type="text"
+                name="city"
+                placeholder="e.g. Bengaluru"
+                required
+              />
+            </label>
+            <button type="submit" class="btn btn-primary weather-btn">
+              Get weather advisory
+            </button>
+            <p id="weather-error" class="weather-error"></p>
+          </form>
+
+          <div class="glass-card weather-result reveal tilt" id="weather-result">
+            <h3>Current weather summary</h3>
+            <p class="weather-hint">
+              Enter a city and click the button to fetch live weather and advisory.
+            </p>
+
+            <div class="weather-main">
+              <div>
+                <p class="weather-city" id="weather-city">—</p>
+                <p class="weather-description" id="weather-description">—</p>
+              </div>
+              <div class="weather-temp-block">
+                <span class="weather-temp" id="weather-temp">—</span>
+                <span class="weather-unit">°C</span>
+              </div>
+            </div>
+
+            <div class="weather-stats">
+              <div class="weather-stat">
+                <span class="weather-stat-label">Humidity</span>
+                <span class="weather-stat-value" id="weather-humidity">—</span>
+              </div>
+              <div class="weather-stat">
+                <span class="weather-stat-label">Pressure</span>
+                <span class="weather-stat-value" id="weather-pressure">—</span>
+              </div>
+              <div class="weather-stat">
+                <span class="weather-stat-label">Wind speed</span>
+                <span class="weather-stat-value" id="weather-wind">—</span>
+              </div>
+            </div>
+
+            <div class="weather-advisory-block">
+              <h4>Irrigation advice</h4>
+              <p id="irrigation-advice" class="weather-advice-text">—</p>
+            </div>
+
+            <div class="weather-advisory-block">
+              <h4>Weather advisory</h4>
+              <p id="weather-advice" class="weather-advice-text">—</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END WEATHER & IRRIGATION ADVISORY SECTION -->
+
+    <!-- CROP RECOMMENDATION SECTION -->
+    <section id="demo" class="section demo-section">
+      <div class="container">
+        <div class="section-title reveal">
+          <p class="eyebrow">Crop Recommendation</p>
+          <h2>Try the smart crop advisory</h2>
+          <p class="centered-section-text">
+            Enter soil and weather parameters and see what crop our Agentic AI recommends.
+          </p>
+        </div>
+
+        <div class="demo-layout">
+          <form id="crop-form" class="demo-form glass-card tilt">
+            <h3>Input field conditions</h3>
+
+            <div class="form-grid">
+              <label>
+                <span>N (Nitrogen)</span>
+                <input type="number" step="0.01" name="N" required placeholder="e.g. 90" />
+              </label>
+
+              <label>
+                <span>P (Phosphorus)</span>
+                <input type="number" step="0.01" name="P" required placeholder="e.g. 42" />
+              </label>
+
+              <label>
+                <span>K (Potassium)</span>
+                <input type="number" step="0.01" name="K" required placeholder="e.g. 43" />
+              </label>
+
+              <label>
+                <span>Temperature (°C)</span>
+                <input type="number" step="0.01" name="temperature" required placeholder="e.g. 20.87" />
+              </label>
+
+              <label>
+                <span>Humidity (%)</span>
+                <input type="number" step="0.01" name="humidity" required placeholder="e.g. 82.00" />
+              </label>
+
+              <label>
+                <span>pH</span>
+                <input type="number" step="0.01" name="ph" required placeholder="e.g. 6.50" />
+              </label>
+
+              <label>
+                <span>Rainfall (mm)</span>
+                <input type="number" step="0.01" name="rainfall" required placeholder="e.g. 202.93" />
+              </label>
+            </div>
+
+            <button type="submit" class="btn btn-primary demo-btn">
+              Get crop recommendation
+            </button>
+
+            <p id="demo-error" class="demo-error"></p>
+          </form>
+
+          <div class="demo-result glass-card reveal tilt" id="demo-result">
+            <h3>Prediction result</h3>
+            <p class="demo-hint">Fill the form and click the button to see the recommendation.</p>
+
+            <div class="demo-main-result">
+              <span class="demo-label">Predicted crop</span>
+              <span class="demo-value" id="predicted-crop">—</span>
+            </div>
+
+            <div class="demo-top3">
+              <h4>Top 3 crops (model confidence)</h4>
+              <ul id="top3-list"></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END CROP RECOMMENDATION SECTION -->
+
+    <!-- DISEASE DETECTION SECTION -->
+    <section id="disease" class="section disease-section">
+      <div class="container">
+        <div class="section-title reveal">
+          <p class="eyebrow">Disease Detection</p>
+          <h2>Check potato leaf health</h2>
+          <p class="centered-section-text">
+            Upload a potato leaf image and the model will classify it as healthy,
+            early blight, or late blight with confidence.
+          </p>
+        </div>
+
+        <div class="disease-layout">
+          <form id="disease-form" class="glass-card disease-form tilt">
+            <h3>Upload leaf image</h3>
+
+            <label class="file-drop" id="file-drop">
+              <input type="file" id="leaf-file" accept="image/*" hidden />
+              <div class="file-drop-inner">
+                <p class="file-drop-title">Drop image here or click to upload</p>
+                <p class="file-drop-hint">Supported formats: JPG, JPEG, PNG</p>
+              </div>
+            </label>
+
+            <div class="preview-wrapper">
+              <p class="preview-label">Preview</p>
+              <div class="preview-box" id="preview-box">
+                <p class="preview-placeholder">No image selected</p>
+                <img id="preview-image" alt="Leaf preview" />
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary disease-btn">
+              Analyze disease
+            </button>
+
+            <p id="disease-error" class="disease-error"></p>
+          </form>
+
+          <div class="glass-card disease-result reveal tilt" id="disease-result">
+            <h3>Detection result</h3>
+            <p class="disease-hint">
+              Upload an image and click the button to see the prediction.
+            </p>
+
+            <div class="disease-main-result">
+              <span class="disease-label">Predicted class</span>
+              <span class="disease-value" id="disease-name">—</span>
+            </div>
+
+            <div class="disease-main-result">
+              <span class="disease-label">Model confidence</span>
+              <span class="disease-value" id="disease-confidence">—</span>
+            </div>
+
+            <div class="disease-advisory-block">
+              <h4>Advisory</h4>
+              <p id="disease-advice" class="disease-advice-text">
+                The system will suggest basic field guidance after prediction.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END DISEASE DETECTION SECTION -->
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
